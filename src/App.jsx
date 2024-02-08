@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react';
+import Header from './components/Header.jsx';
+import Pikachu from './assets/images/pikachu-construction.gif';
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Header />
+      <div className="content">
+        <div className="message">
+          <h2>Sorry! This website is currently under construction</h2>
+          <p>In the meantime, you can find me on <a href="https://www.linkedin.com/in/seanaramirez" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
+        </div>
+        <img src={Pikachu} alt="" />
+        <div className="credit">
+          <p>Reconstruction of Pikachu Construction GIF from 1997</p>
+          <p>
+            Credit to <a href="https://www.reddit.com/user/prguitarman/" target="_blank" rel="noreferrer">u/prguitarman</a>, posted to <a href="https://www.reddit.com/r/PixelArt/comments/16sz37h/reconstructed_the_pikachu_construction_gif_from/?rdt=65479&onetap_auto=true" target="_blank" rel="noreferrer">r/PixelArt</a> on Reddit</p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
-
-export default App
