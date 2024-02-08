@@ -1,0 +1,40 @@
+.side-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: calc(100% - var(--side-menu-width));
+   color: white;
+}
+
+.sections {
+   scroll-behavior: smooth;
+   overflow-y: scroll;
+   display: flex;
+   flex-direction: column;
+   max-height: var(--section-height);
+   width: 50vh;
+}
+
+.sections h2 {
+   font-size: 35px;
+}
+
+.sections :is(p, a) {
+   font-size: 20px;
+}
+
+#about-me,
+#projects,
+#links {
+   padding: 5vh;
+}
+
+.sections a {
+   text-decoration: none;
+   color: yellow;
+}
+
+.sections a:hover {
+   color: red;
+}

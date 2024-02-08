@@ -2,11 +2,14 @@
   /* Global Variables */
   /* colors */
   --main-color: rgb(4, 0, 56);
+  --second-color: rgb(34, 34, 34);
   --third-color: black;
   --scrollbar-color: rgb(48, 48, 48);
 
   /* sizes */
   --head-height: 10vh;
+  --side-menu-width: 70vh;
+  --section-height: 70vh;
 
   /* background-color */
   background-color: var(--main-color);

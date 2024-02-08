@@ -1,38 +1,5 @@
 .content {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-.content :is(h2, p) {
-  color: white;
-}
-
-.message,
-.credit {
-  font-size: 20px;
-  text-align: center
-}
-
-.message {
-  margin-top: 2vh;
-}
-
-.credit {
-  margin-top: 4vh;
-}
-
-.content img {
-  margin-top: 4vh;
-  width: 35vh;
-}
-
-.content a {
-  text-decoration: none;
-  color: yellow;
-}
-
-.content a:hover {
-  color: red;
-}

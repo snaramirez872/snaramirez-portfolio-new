@@ -1,0 +1,25 @@
+.side-menu {
+    overflow: hidden;
+    width: var(--side-menu-width);
+    height: calc(100vh - var(--head-height));
+    background: linear-gradient(
+        to left, 
+        var(--third-color) 0%,
+        var(--main-color) 100%
+    );
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vh;
+    gap: 7vh;
+}
+
+.items a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}

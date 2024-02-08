@@ -5,6 +5,7 @@ export default function Header() {
     return(
         <div className="header">
             <h1>Sean A Ramirez</h1>
+            <a href="#">Resume</a>
         </div>
     );
 }

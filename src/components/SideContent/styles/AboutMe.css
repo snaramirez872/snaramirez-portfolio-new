@@ -1,0 +1,13 @@
+.about-content {
+    display: flex;
+    flex-direction: column;
+    height: var(--section-height);
+    gap: 3vh;
+    margin-top: 3vh;
+}
+
+p span {
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+}
