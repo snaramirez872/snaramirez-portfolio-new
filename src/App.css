@@ -3,3 +3,29 @@
   justify-content: space-between;
 }
 
+.content .mobile-content {
+  display: none;
+}
+
+/* Smaller Screens */
+@media screen and (max-width: 1024px) {
+  .header .resume-btn,
+  .side-menu {
+    display: none;
+  }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 768px) {
+  .header .resume-btn,
+  .side-menu,
+  .side-content {
+    display: none;
+  }
+
+  .content .mobile-content {
+    display: block;
+    color: white;
+  }
+}
+

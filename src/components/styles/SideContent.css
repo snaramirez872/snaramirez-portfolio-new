@@ -13,7 +13,25 @@
    display: flex;
    flex-direction: column;
    max-height: var(--section-height);
-   width: 50vh;
+   width: 60vh;
+
+   /* FireFox Scrollbar */
+   scrollbar-width: var(--scroll-bar-width);
+   scrollbar-color: var(--scrollbar-color) var(--main-color);
+}
+
+/* Scrollbars for Chrome/Safari */
+.sections::-webkit-scrollbar {
+   width: var(--scroll-bar-width);
+}
+
+.sections::-webkit-scrollbar-thumb {
+   background-color: var(--scrollbar-color);
+   border-radius: 5vh;
+}
+
+.sections::-webkit-scrollbar-track {
+   background-color: var(--main-color);
 }
 
 .sections h2 {
@@ -28,6 +46,7 @@
 #projects,
 #links {
    padding: 5vh;
+   height: var(--section-height);
 }
 
 .sections a {

@@ -1,7 +1,6 @@
 .proj-content {
     display: flex;
     flex-direction: column;
-    height: var(--section-height);
     gap: 3vh;
     margin-top: 3vh;
 }

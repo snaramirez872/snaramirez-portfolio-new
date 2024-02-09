@@ -6,13 +6,13 @@ export default function SideMenu() {
         <div className="side-menu">
             <div className="items">
                 <a href="#about-me">
-                    About Me
+                    <button type="button">About Me</button>
                 </a>
                 <a href="#projects">
-                    Projects
+                    <button type="button">Projects</button>
                 </a>
                 <a href="#links">
-                    Links
+                    <button type="button">Links</button>
                 </a>
             </div>
         </div>

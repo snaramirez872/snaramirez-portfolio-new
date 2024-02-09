@@ -3,5 +3,4 @@
     flex-direction: column;
     margin-top: 3vh;
     gap: 2vh;
-    height: var(--section-height);
 }

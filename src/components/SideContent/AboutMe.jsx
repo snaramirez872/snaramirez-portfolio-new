@@ -10,7 +10,7 @@ export default function AboutMe() {
                     I am a <span>Software Developer</span> that recently graduated 
                     from the New Jersey Institute of Technology. My focuses lie primarily 
                     in <span>Web Development</span> and <span>Frontend Development/Design</span>. I also 
-                    have varying levels of experience with <span>Data Engineering</span> and other <span>Backend Disciplines</span>.
+                    have varying levels of experience with <span>Data Engineering</span> and other <span>Backend Technologies and Practices</span>.
                 </p>
                 <p>
                     I am proficient in <span>JavaScript</span> and <span>Python</span>. My skills are 

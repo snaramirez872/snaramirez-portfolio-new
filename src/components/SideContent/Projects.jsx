@@ -12,11 +12,23 @@ export default function Projects() {
                 <div className="team-proj">
                     <ul className="proj-lists">
                         <li>
-                            <a href="#">GitHub Repo</a>
+                            <a 
+                                href="https://github.com/ppauliuchenka02/bandgeeks-news-app" 
+                                target="_blank" 
+                                rel="noreferrer"
+                            >
+                                GitHub Repo
+                            </a>
                             <p>A news app</p>
                         </li>
                         <li>
-                            <a href="#">Prototype Link</a>
+                            <a 
+                                href={import.meta.env.VITE_translationServiceLink} 
+                                target="_blank" 
+                                rel="noreferrer"
+                            >
+                                Prototype Link
+                            </a>
                             <p>A court notice translation service</p>
                         </li>
                     </ul>
@@ -27,14 +39,26 @@ export default function Projects() {
                 <div className="solo-proj">
                     <ul className="proj-lists">
                         <li>
-                            <a href="#">GitHub Repo</a>
+                            <a 
+                                href="https://github.com/snaramirez872/portfolio_new" 
+                                target="_blank" 
+                                rel="noreferrer"
+                            >
+                                GitHub Repo
+                            </a>
                             <p>This very portfolio website</p>
                         </li>
                     </ul>
                     <ul className="proj-lists">
                         <li>
-                            <a href="#">GitHub Repo</a>
-                            <p>A video game organizer</p>
+                            <a 
+                                href="https://github.com/snaramirez872/SeanVGO" 
+                                target="_blank" 
+                                rel="noreferrer"
+                            >
+                                GitHub Repo
+                            </a>
+                            <p>A video game organizer service</p>
                         </li>
                     </ul>
                 </div>
