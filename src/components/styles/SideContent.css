@@ -49,6 +49,11 @@
    height: var(--section-height);
 }
 
+#links {
+   margin-top: 20vh;
+   margin-bottom: 10vh;
+}
+
 .sections a {
    text-decoration: none;
    color: yellow;
