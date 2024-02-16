@@ -21,3 +21,13 @@
     text-align: right;
     margin-right: 2vh;
 }
+
+@media screen and (max-width: 500px) {
+    .header {
+        background: linear-gradient(
+            90deg, 
+            var(--main-color) 20%, 
+            var(--third-color) 90%
+        );
+    }
+}

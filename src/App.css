@@ -15,8 +15,7 @@
   }
 }
 
-/* Mobile Screens */
-@media screen and (max-width: px) {
+@media screen and (max-width: 995px) {
   .header .resume-btn,
   .side-menu,
   .side-content {
