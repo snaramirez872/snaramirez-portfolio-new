@@ -1,0 +1,6 @@
+.mobile-links .mobile-sean-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}

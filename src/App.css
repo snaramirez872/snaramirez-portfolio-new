@@ -8,7 +8,7 @@
 }
 
 /* Smaller Screens */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 999px) { /* 999 because I found that the desktop content still looks fine as low as 1000px */
   .header .resume-btn,
   .side-menu {
     display: none;
@@ -16,7 +16,7 @@
 }
 
 /* Mobile Screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: px) {
   .header .resume-btn,
   .side-menu,
   .side-content {
@@ -28,4 +28,3 @@
     color: white;
   }
 }
-

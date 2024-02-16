@@ -1,10 +1,15 @@
 import React from "react";
+import MobileAbout from "./mobile-components/MobileAbout";
+import MobileProjects from "./mobile-components/MobileProjects";
+import MobileLinks from "./mobile-components/MobileLinks";
 import "./styles/MobileContent.css";
 
 export default function MobileContent() {
-    return(
+    return (
         <div className="mobile-content">
-            <p>Mobile View is Currently Under Construction</p>
+            <MobileAbout />
+            <MobileProjects />
+            <MobileLinks />
         </div>
     );
 }

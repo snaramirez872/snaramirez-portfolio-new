@@ -1,16 +1,16 @@
 import React from "react";
-import "./styles/Projects.css";
+import "./styles/MobileProjects.css";
 
-export default function Projects() {
+export default function MobileProjects() {
     return(
-        <div id="projects">
+        <div className="mobile-projects">
             <h2>Projects</h2>
-            <div className="proj-content">
+            <div className="mobile-proj-content">
                 <p>
                     I was on the dev team for the following projects:
                 </p>
-                <div className="team-proj">
-                    <ul className="proj-lists">
+                <div className="mobile-team-proj">
+                    <ul className="mobile-proj-lists">
                         <li>
                             <a 
                                 href="https://github.com/ppauliuchenka02/bandgeeks-news-app" 
@@ -33,11 +33,11 @@ export default function Projects() {
                         </li>
                     </ul>
                 </div>
-                <p className="solo-header">
+                <p className="mobile-solo-header">
                     I built the following solo projects:
                 </p>
-                <div className="solo-proj">
-                    <ul className="proj-lists">
+                <div className="mobile-solo-proj">
+                    <ul className="mobile-proj-lists">
                         <li>
                             <a 
                                 href="https://github.com/snaramirez872/portfolio_new" 

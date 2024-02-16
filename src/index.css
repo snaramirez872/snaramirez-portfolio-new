@@ -28,3 +28,7 @@
 * button:hover {
   cursor: pointer;
 }
+
+* p {
+  line-height: 1.5;
+}
