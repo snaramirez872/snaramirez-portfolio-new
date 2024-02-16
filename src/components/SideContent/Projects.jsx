@@ -57,8 +57,8 @@ export default function Projects() {
                                 rel="noreferrer"
                             >
                                 GitHub Repo
-                            </a>
-                            <p>A video game organizer service</p>
+                            </a> | <a href="https://seanvgo-f931c.web.app/login" taregt="_blank" rel="noreferrer">Live Link</a>
+                            <p>A video game organizer service (please email me for login credentials)</p>
                         </li>
                     </ul>
                 </div>
