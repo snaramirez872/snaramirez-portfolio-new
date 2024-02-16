@@ -14,7 +14,7 @@ export default function AboutMe() {
                 </p>
                 <p>
                     I am proficient in <span>JavaScript</span> and <span>Python</span>. My skills are 
-                    broken down further in my Resume which can be found <a href="#">here</a>.
+                    broken down further in my Resume which can be found <a href={import.meta.env.VITE_resumeLink} target="_blank" rel="noreferrer">here</a>.
                 </p>
             </div>
         </div>
