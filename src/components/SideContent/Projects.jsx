@@ -17,9 +17,8 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
+                                A Personal News App
                             </a>
-                            <p>A news app</p>
                         </li>
                         <li>
                             <a 
@@ -27,9 +26,8 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                Prototype Link
+                                NJ Courts Notice Translation Service NJIT Fall 2023
                             </a>
-                            <p>A court notice translation service</p>
                         </li>
                     </ul>
                 </div>
@@ -44,9 +42,8 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
+                                This very portfolio website
                             </a>
-                            <p>This very portfolio website</p>
                         </li>
                         <li>
                             <a 
@@ -54,9 +51,8 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
-                            </a> | <a href="https://seanvgo-f931c.web.app/login" taregt="_blank" rel="noreferrer">Live Link</a>
-                            <p>A video game organizer service (please email me for login credentials)</p>
+                                A video game organizer service (please email me for login credentials)
+                            </a>
                         </li>
                     </ul>
                 </div>
