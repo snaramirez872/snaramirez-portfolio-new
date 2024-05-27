@@ -38,7 +38,7 @@
    font-size: 35px;
 }
 
-.sections :is(p, a) {
+.sections :is(p, a, .nj-courts-project) {
    font-size: 20px;
 }
 
@@ -54,7 +54,8 @@
    margin-bottom: 10vh;
 }
 
-.sections a {
+.sections a,
+.sections .nj-courts-project {
    text-decoration: none;
    color: yellow;
 }

@@ -20,14 +20,8 @@ export default function Projects() {
                                 A Personal News App
                             </a>
                         </li>
-                        <li>
-                            <a 
-                                href={import.meta.env.VITE_translationServiceLink} 
-                                target="_blank" 
-                                rel="noreferrer"
-                            >
-                                NJ Courts Notice Translation Service NJIT Fall 2023
-                            </a>
+                        <li className='nj-courts-project'>
+                            NJ Courts Notice Translation Service Prototype Fall 2023
                         </li>
                     </ul>
                 </div>
@@ -52,6 +46,15 @@ export default function Projects() {
                                 rel="noreferrer"
                             >
                                 A video game organizer service (please email me for login credentials)
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/snaramirez872/sean-fo4-guide"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                An Unofficial Game Guide for Fallout 4 (currently still in-progress)
                             </a>
                         </li>
                     </ul>
