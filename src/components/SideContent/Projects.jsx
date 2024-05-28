@@ -32,7 +32,7 @@ export default function Projects() {
                     <ul className="proj-lists">
                         <li>
                             <a 
-                                href="https://github.com/snaramirez872/portfolio_new" 
+                                href="https://github.com/snaramirez872/snaramirez-portfolio-new" 
                                 target="_blank" 
                                 rel="noreferrer"
                             >
@@ -50,7 +50,7 @@ export default function Projects() {
                         </li>
                         <li>
                             <a
-                                href="https://github.com/snaramirez872/sean-fo4-guide"
+                                href="https://github.com/snaramirez872/fanmade-fallout4-game-guide"
                                 target="_blank"
                                 rel="noreferrer"
                             >
