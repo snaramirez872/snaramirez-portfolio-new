@@ -48,7 +48,7 @@ export default function MobileProjects() {
                             >
                                 A video game organizer service (GitHub Repo)
                             </a>
-                            <p>For Live Link view this page in Desktop.</p>
+                            <p>For Live Link view this page on Desktop.</p>
                         </li>
                         <li>
                             <a
