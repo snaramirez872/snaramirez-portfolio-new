@@ -11,9 +11,6 @@ export default function SideMenu() {
                 <a href="#projects">
                     <button type="button">Projects</button>
                 </a>
-                <a href="#links">
-                    <button type="button">Links</button>
-                </a>
             </div>
         </div>
     );

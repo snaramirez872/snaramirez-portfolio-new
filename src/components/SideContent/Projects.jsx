@@ -20,8 +20,9 @@ export default function Projects() {
                                 A Personal News App
                             </a>
                         </li>
-                        <li className='nj-courts-project'>
-                            NJ Courts Notice Translation Service Prototype Fall 2023
+                        <li>
+                            <p className='nj-courts-project'>NJ Courts Notice Translation Service Prototype Fall 2023</p>
+                            <p>No Link Available</p>
                         </li>
                     </ul>
                 </div>
@@ -36,17 +37,18 @@ export default function Projects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                This very portfolio website
+                                This very website (GitHub Repo)
                             </a>
                         </li>
                         <li>
                             <a 
-                                href="https://github.com/snaramirez872/SeanVGO" 
+                                href="https://seanvgo-f931c.web.app/login" 
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                A video game organizer service (please email me for login credentials)
+                                A video game organizer service (Live Link) 
                             </a>
+                            <p>Please email me for login credentials</p>
                         </li>
                         <li>
                             <a

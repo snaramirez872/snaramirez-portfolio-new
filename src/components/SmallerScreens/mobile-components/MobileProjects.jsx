@@ -17,19 +17,12 @@ export default function MobileProjects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
+                                A Personal News App (GitHub Repo)
                             </a>
-                            <p>A news app</p>
                         </li>
                         <li>
-                            <a 
-                                href={import.meta.env.VITE_translationServiceLink} 
-                                target="_blank" 
-                                rel="noreferrer"
-                            >
-                                Prototype Link
-                            </a>
-                            <p>A court notice translation service</p>
+                            <p className='nj-courts-project'>NJ Courts Notice Translation Service Prototype Fall 2023</p>
+                            <p>No Link Available</p>
                         </li>
                     </ul>
                 </div>
@@ -44,9 +37,8 @@ export default function MobileProjects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
+                                This very website (GitHub Repo)
                             </a>
-                            <p>This very portfolio website</p>
                         </li>
                         <li>
                             <a 
@@ -54,9 +46,19 @@ export default function MobileProjects() {
                                 target="_blank" 
                                 rel="noreferrer"
                             >
-                                GitHub Repo
-                            </a> | <a href="https://seanvgo-f931c.web.app/login" taregt="_blank" rel="noreferrer">Live Link</a>
-                            <p>A video game organizer service (please email me for login credentials)</p>
+                                A video game organizer service (GitHub Repo)
+                            </a>
+                            <p>For Live Link view this page in Desktop.</p>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/snaramirez872/fanmade-fallout4-game-guide"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                An Unofficial Game Guide for Fallout 4 (GitHub Repo)
+                            </a>
+                            <p>Currently in-progress</p>
                         </li>
                     </ul>
                 </div>
