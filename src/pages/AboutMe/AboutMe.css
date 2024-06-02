@@ -1,0 +1,90 @@
+
+.AboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8vh 7vh 0 7vh;
+    gap: 20vh;
+}
+
+.words {
+    width: 60vh;
+    font-size: var(--font-size-1);
+}
+
+.extracurriculars,
+.intro-to-projects {
+    margin-top: 1.5rem;
+}
+
+.keywords {
+    font-size: calc(var(--font-size-1) + 2px);
+    font-weight: 600;
+    color: var(--orange-500);
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    margin-bottom: 2vh;
+}
+
+.desktop-icons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.25rem;
+}
+
+.mobile-tabs,
+.mobile-icons,
+.mobile-mode {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .AboutMe {
+        display: block;
+    }
+
+    .words {
+        width: 100%;
+    }
+
+    .profile-card {
+        display: none;
+    }
+
+    .mobile-tabs,
+    .mobile-icons {
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mobile-tabs {
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+        margin-left: 2vh;
+        margin-right: 2vh;
+        gap: 3vh;
+    }
+
+    .mobile-tabs a {
+        text-decoration: none;
+        background-color: var(--emerald-300);
+        color: black;
+        padding: 1vh 5vh;
+        border-radius: 3vh;
+        font-size: calc(var(--font-size-1) + 2px);
+    }
+
+    .mobile-icons {
+        gap: 3vh;
+    }
+}
