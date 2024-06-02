@@ -1,0 +1,58 @@
+.NavBar {
+    padding: 1.25rem;
+    width: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.nav-container a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-left: 7vh;
+    color: var(--text-color);
+}
+
+.links {
+    display: flex;
+    gap: 2.75rem;
+    margin-right: 7vh;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.nav-link {
+    padding: 0.75rem;
+    color: var(--text-color);
+}
+.nav-link:hover {
+    color: var(--emerald-300);
+}
+
+.resume-link {
+    color: black;
+    background-color: var(--emerald-300);
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+}
+.resume-link:hover {
+    border-radius: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        margin-left: 0;
+    }
+
+    .links {
+        display: none;
+    }
+}

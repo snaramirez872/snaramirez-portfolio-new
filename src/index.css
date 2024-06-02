@@ -1,5 +1,13 @@
-:root {}
-
+:root {
+  /* Color Pallete */
+  --emerald-300: #6ee7b7;
+  --text-color: white;
+  --bg-color: #1f2937;
+}
+body {
+  background-color: #1f2937;
+  color: var(--text-color);
+}
 * {
   box-sizing: border-box;
   margin: 0;
