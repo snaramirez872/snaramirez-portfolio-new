@@ -1,38 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  /* Global Variables */
-  /* colors */
-  --main-color: rgb(4, 0, 56);
-  --second-color: rgb(34, 34, 34);
-  --third-color: black;
-  --scrollbar-color: rgb(48, 48, 48);
-  --neon-color: #d1ab00;
-
-  /* sizes */
-  --head-height: 10vh;
-  --side-menu-width: 70vh;
-  --section-height: 70vh;
-  --scroll-bar-width: 6px;
-
-  /* background-color */
-  background-color: var(--main-color);
-}
+:root {}
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'consolas';
+  font-family: 'inter';
   transition: ease-in-out 0.3s;
 }
 
-* button:hover {
-  cursor: pointer;
-}
-
-* p {
-  line-height: 1.5;
-}

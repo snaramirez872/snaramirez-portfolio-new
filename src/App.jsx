@@ -1,19 +1,19 @@
 import React from 'react';
-import Header from './components/Header.jsx';
-import SideMenu from './components/SideMenu.jsx';
-import SideContent from './components/SideContent.jsx';
-import MobileContent from './components/SmallerScreens/MobileContent.jsx';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
+import NavBar from './components/NavBar/NavBar';
 
 export default function App() {
   return (
     <>
-      <Header />
-      <div className="content">
-        <SideContent />
-        <SideMenu />
-        <MobileContent />
+    <Router>
+      <div className="App">
+        <NavBar />
+        <div className="pages">
+          Hello
+        </div>
       </div>
+    </Router>
     </>
   )
 }
