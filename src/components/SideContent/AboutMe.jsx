@@ -1,9 +1,9 @@
 import React from "react";
-import X_Logo from '../../assets/images/x-logo-white.png';
-import GitHub_Logo from '../../assets/images/github-mark-white.png';
-import Insta_Logo from '../../assets/images/Instagram_Glyph_White.png';
-import LI_Logo from '../../assets/images/In-White-96@2x.png';
-import Email from '../../assets/images/envelope.svg';
+import X_Logo from '../../assets/icons/x-logo-white.png';
+import GitHub_Logo from '../../assets/icons/github-mark-white.png';
+import Insta_Logo from '../../assets/icons/Instagram_Glyph_White.png';
+import LI_Logo from '../../assets/icons/In-White-96@2x.png';
+import Email from '../../assets/icons/envelope.svg';
 import "./styles/AboutMe.css";
 import "../logos.css";
 
