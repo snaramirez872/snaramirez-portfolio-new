@@ -1,7 +1,7 @@
 [
     {
         "title": "Band Geeks News App",
-        "desc": "A personal news app developed with",
+        "desc": "A personal news app developed using",
         "links": [
             { "text": "RedwoodJS", "href": "https://redwoodjs.com/docs/introduction" },
             { "text": "TailwindCSS", "href": "https://tailwindcss.com/docs" }
