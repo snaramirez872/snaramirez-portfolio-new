@@ -3,6 +3,7 @@
   --emerald-300: #6ee7b7;
   --text-color: white;
   --bg-color: #1f2937;
+  --bg-color-2: #18202b;
   --orange-500: #f97316;
 
   /* Sizes */
@@ -19,5 +20,4 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'inter';
-  transition: ease-in-out 0.3s;
 }

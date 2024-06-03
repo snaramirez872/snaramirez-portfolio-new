@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+.NavBar * {
+    transition: ease-in-out 0.3s;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;

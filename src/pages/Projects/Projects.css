@@ -1,0 +1,41 @@
+.project-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vh;
+    padding: 0 2vh;
+    gap: 3vh;
+}
+
+.button,
+.back-button {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .back-button {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        background-color: var(--orange-500);
+        color: white;
+        font-size: var(--font-size-1);
+        border-radius: 2vh;
+        margin: 2vh 15vh;
+        padding: 0.5vh 3vh;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        padding: 0 2vh;
+        gap: 2.5vh;
+        margin-bottom: 7vh;
+        margin-top: 5vh;
+    }
+}

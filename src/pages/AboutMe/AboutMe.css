@@ -87,4 +87,11 @@
     .mobile-icons {
         gap: 3vh;
     }
+
+    .mobile-mode {
+        display: inline-block;
+    }
+    .desktop-mode {
+        display: none;
+    }
 }

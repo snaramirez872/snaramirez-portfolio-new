@@ -28,7 +28,7 @@ export default function AboutMe() {
             </div>
             <div className='mobile-tabs'>
                 <Link to='/projects'>Projects</Link>
-                <a href={import.meta.env.VITE_resumeLink}>Projects</a>
+                <a href={import.meta.env.VITE_resumeLink}>Resume</a>
             </div>
             <div className='mobile-icons'>
                 <a href='mailto:snaramirez872@gmail.com' target='_blank' rel='noreferrer'><img src={email} alt='email link' height='40' width='40' /></a>
