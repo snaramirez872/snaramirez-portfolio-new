@@ -12,7 +12,7 @@ export default function AboutMe() {
     return (
         <div className='AboutMe'>
             <div className='words'>
-                <p className='intro'>I am a recent graduate from The New Jersey Institute of Technology. I am proficient in <span className='keywords'>Front End Development/Design</span>. As such, I am proficient in <span className='keywords'>JavaScript</span> and <span className='keywords'>Python</span>.</p>
+                <p className='intro'>I am a <span className='keywords'>Software Developer</span> with passion for <span className='keywords'>Front End Development/Design</span>. As such, I am proficient in <span className='keywords'>JavaScript</span> and <span className='keywords'>Python</span>.</p>
                 <p className='extracurriculars'>When I'm not coding, I enjoy playing video games, photography, listening to music, and watching anime.</p>
                 <p className='intro-to-projects'>I've been making <span className='keywords'>React.js</span> applications for several months now and they all can be viewed by <span className='desktop-mode'>clicking "Projects" at the top right</span><span className='mobile-mode'>tapping "Projects" below</span>.</p>
             </div>
