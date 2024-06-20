@@ -13,7 +13,7 @@ export default function Projects() {
             <div className='project-cards'>
                 <div className='card'>
                     <div className="image-container">
-                        <a href="" target="_blank" rel='noreferrer'>
+                        <a href="https://github.com/ppauliuchenka02/bandgeeks-news-app" target="_blank" rel='noreferrer'>
                             <img src={github} alt="" width='80' height='80' />
                         </a>
                     </div>
@@ -30,7 +30,7 @@ export default function Projects() {
                 </div>
                 <div className='card'>
                     <div className="image-container">
-                        <a href="" target="_blank" rel='noreferrer'>
+                        <a href="https://github.com/snaramirez872/SeanVGO" target="_blank" rel='noreferrer'>
                             <img src={github} alt="" width='80' height='80' />
                         </a>
                     </div>
