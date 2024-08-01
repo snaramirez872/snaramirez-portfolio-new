@@ -36,18 +36,18 @@ export default function Projects() {
                     </div>
                     <div className='proj-details'>
                         <p className='title'>SeanVGO</p>
-                        <p className='desc'>A video game collection organizer using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <a className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</a>.</p>
+                        <p className='desc'>A video game collection organizer that was built using <span className='tools'>React.js</span>, <span className='tools'>CSS</span>, and <a className='tools' href='https://firebase.google.com/docs/firestore' target='_blank' rel='noreferrer'>Cloud Firestore</a>.</p>
                     </div>
                 </div>
                 <div className='card'>
                     <div className="image-container">
-                        <a href="https://github.com/snaramirez872/fanmade-fallout4-game-guide" target="_blank" rel='noreferrer'>
+                        <a href="https://github.com/snaramirez872/snaramirez-dev" target="_blank" rel='noreferrer'>
                             <img src={github} alt="" width='80' height='80' />
                         </a>
                     </div>
                     <div className='proj-details'>
-                        <p className='title'>Unofficial Fallout 4 Game Guide</p>
-                        <p className='desc'>Still in-progress fanmade game guide for the Fallout 4 video game. Developing using <span className='tools'>React.js</span> and <span className='tools'>CSS</span>.</p>
+                        <p className='title'>SNARDev</p>
+                        <p className='desc'>Still in-progress collection of coding tutorials. I am developing this using <span className='tools'>React.js</span> and <span className='tools'>CSS</span>.</p>
                     </div>
                 </div>
             </div>
