@@ -24,7 +24,7 @@ export default function AboutMe() {
                     <a href='https://github.com/snaramirez872' target='_blank' rel='noreferrer'><img src={github} alt='github link' height='40' width='40' /></a>
                     <a href='http://linkedin.com/in/seanaramirez' target='_blank' rel='noreferrer'><img src={linkedin} alt='linkedin link' height='40' width='40' /></a>
                     <a href='https://instagram.com/seannybboy' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram link' height='40' width='40' /></a>
-                    <a href='https://x.com/snaramirez' target='_blank' rel='noreferrer'><img src={x} alt='x (formerly twitter) link' height='40' width='40' /></a>
+                    <a href='https://x.com/seannybboy' target='_blank' rel='noreferrer'><img src={x} alt='x (formerly twitter) link' height='40' width='40' /></a>
                 </div>
             </div>
             <div className='mobile-tabs'>
@@ -36,7 +36,7 @@ export default function AboutMe() {
                 <a href='https://github.com/snaramirez872' target='_blank' rel='noreferrer'><img src={github} alt='github link' height='40' width='40' /></a>
                 <a href='http://linkedin.com/in/seanaramirez' target='_blank' rel='noreferrer'><img src={linkedin} alt='linkedin link' height='40' width='40' /></a>
                 <a href='https://instagram.com/seannybboy' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram link' height='40' width='40' /></a>
-                <a href='https://x.com/snaramirez' target='_blank' rel='noreferrer'><img src={x} alt='x (formerly twitter) link' height='40' width='40' /></a>
+                <a href='https://x.com/seannybboy' target='_blank' rel='noreferrer'><img src={x} alt='x (formerly twitter) link' height='40' width='40' /></a>
             </div>
         </div>
     );
