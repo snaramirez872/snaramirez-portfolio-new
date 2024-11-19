@@ -46,7 +46,7 @@ export default function Projects() {
                         </a>
                     </div>
                     <div className='proj-details'>
-                        <p className='title'>SNARDev</p>
+                        <p className='title'>SNAR-Dev</p>
                         <p className='desc'>Still in-progress collection of coding tutorials. I am developing this using <span className='tools'>React.js</span> and <span className='tools'>CSS</span>.</p>
                     </div>
                 </div>
