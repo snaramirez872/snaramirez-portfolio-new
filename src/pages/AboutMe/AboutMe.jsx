@@ -23,7 +23,7 @@ export default function AboutMe() {
                     <a href='mailto:snaramirez872@gmail.com' target='_blank' rel='noreferrer'><img src={email} alt='email link' height='40' width='40' /></a>
                     <a href='https://github.com/snaramirez872' target='_blank' rel='noreferrer'><img src={github} alt='github link' height='40' width='40' /></a>
                     <a href='http://linkedin.com/in/seanaramirez' target='_blank' rel='noreferrer'><img src={linkedin} alt='linkedin link' height='40' width='40' /></a>
-                    <a href='https://instagram.com/seannybboy' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram link' height='40' width='40' /></a>
+                    <a href='https://instagram.com/seannybboy.jpg' target='_blank' rel='noreferrer'><img src={instagram} alt='instagram link' height='40' width='40' /></a>
                 </div>
             </div>
             <div className='mobile-tabs'>
