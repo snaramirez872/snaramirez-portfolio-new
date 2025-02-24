@@ -5,7 +5,6 @@ import email from '../../assets/icons/envelope.svg';
 import github from '../../assets/icons/github-mark-white.png';
 import linkedin from '../../assets/icons/In-White-96@2x.png';
 import instagram from '../../assets/icons/Instagram_Glyph_White.png';
-import x from '../../assets/icons/x-logo-white.png';
 import "./AboutMe.css"
 
 export default function AboutMe() {
