@@ -1,8 +1,8 @@
 # Sean Ramirez Portfolio 2024
 
 Technologies Used:
-- NPM v10.8.0
-- Firebase v13.10.2
+- NPM v10.9.2
+- Firebase v13.31.2
 - Vite v5.0.12
 - JavaScript (ReactJS)
 - CSS
