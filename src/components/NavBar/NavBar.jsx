@@ -10,7 +10,7 @@ export default function NavBar() {
                 <div className='links'>
                     <Link to="/" className='nav-link'>About Me</Link>
                     <Link to="/projects" className='nav-link'>Projects</Link>
-                    <Link to={import.meta.env.VITE_resumeLink} className='resume-link' target='_blank' rel='noreferrer'>Resume</Link>
+                    <Link to={import.meta.env.VITE_RESUME_LINK} className='resume-link' target='_blank' rel='noreferrer'>Resume</Link>
                 </div>
             </div>
         </nav>
