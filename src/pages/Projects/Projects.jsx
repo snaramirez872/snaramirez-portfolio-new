@@ -39,7 +39,7 @@ export default function Projects() {
                     title="Effectiveness Dex" 
                     link="https://github.com/snaramirez872/Effectiveness-Dex"
                 >
-                    <p className="desc">Still in-progress Pok&eacute;mon type effectiveness finder. I am building this using <span className="tools">Next.js</span> and <span className="tools">TailwindCSS</span>.</p>
+                    <p className="desc">Still in-progress Pok&eacute;mon type effectiveness finder. I am building this using <span className="tools">Next.js</span>, <span className="tools">TailwindCSS</span>, and <a className="tools" href="https://pokeapi.co/docs/v2" target="_blank" rel="noreferrer">Pok&eacute;APi</a>.</p>
                 </ProjectCard>
             </div>
         </div>
